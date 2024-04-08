@@ -1,4 +1,4 @@
-![image](https://github.com/nhattanhh/CTF/assets/130430279/f1fbbade-6fa0-4bcd-b867-a24875d1c3b8)![image](https://github.com/nhattanhh/CTF/assets/130430279/2501181e-3266-4c1e-8724-dff220f6a40d)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/2501181e-3266-4c1e-8724-dff220f6a40d)
 
 Register it...
 
