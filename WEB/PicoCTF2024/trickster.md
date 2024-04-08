@@ -12,12 +12,12 @@ Okay, those bytes it is spitting back at us are the first bytes of our file, the
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/a7674c95-769d-4fb6-8e1c-58b167a48f27)
 
-Ok we have png signature here, now we will inject basic php code and rename to hacklord.png.php to RCE that:
+Ok we have png signature here, now we will inject basic php code by notepad and rename to hacklord.png.php to RCE that:
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/907f0ad7-ba09-4875-8b1d-9a13cbd6a8b0)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/74cb30e8-9c1b-4283-9cca-d9195c8ad373)
 
+![image](https://github.com/nhattanhh/CTF/assets/130430279/3180211a-4fd3-4ecc-8e4c-bf756154fd97)
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/6b6ccd0a-fa71-4b96-96e5-97feaf5d15b3)
 
 Got its!
 
