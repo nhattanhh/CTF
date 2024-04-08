@@ -14,7 +14,8 @@ Okay, those bytes it is spitting back at us are the first bytes of our file, the
 
 Ok we have png signature here, now we will inject basic php code and rename to hacklord.png.php to RCE that:
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/ec3dc76c-0bbb-433d-aa75-019d743fffdb)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/907f0ad7-ba09-4875-8b1d-9a13cbd6a8b0)
+
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/6b6ccd0a-fa71-4b96-96e5-97feaf5d15b3)
 
