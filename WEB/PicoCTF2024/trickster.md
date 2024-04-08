@@ -24,3 +24,11 @@ Got its!
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/01066d8a-bc93-4727-bfcb-d212164ddfd9)
 
 Access to php file with /uploads/hacklord.png.php and RCEEEEEEEEEEEEEEEEE...
+
+![image](https://github.com/nhattanhh/CTF/assets/130430279/31a4cd63-e1ff-4540-b67d-35d677ee7f1f)
+
+nikeee!
+
+![image](https://github.com/nhattanhh/CTF/assets/130430279/20b09819-9cd3-41be-8f75-8ed429853847)
+
+![image](https://github.com/nhattanhh/CTF/assets/130430279/08bf185a-cb81-42a6-9ac0-ed8ab6479848)
