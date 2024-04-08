@@ -16,6 +16,9 @@ Ok we have png signature here, now we will inject basic php code by notepad and 
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/74cb30e8-9c1b-4283-9cca-d9195c8ad373)
 
+![Ảnh chụp màn hình 2024-04-08 231136](https://github.com/nhattanhh/CTF/assets/130430279/e1727ecf-c1b4-4942-a544-9fe01e5279ad)
+
+
 Got its!
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/01066d8a-bc93-4727-bfcb-d212164ddfd9)
