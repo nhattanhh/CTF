@@ -1,7 +1,7 @@
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/80abf962-89c9-4220-8857-4aae0da6445a)
 
 So there're 8 pictures with 1 redacted.
-try Descrive image, we see that each image just differ about if of picture.
+try 'Describe image', we see that each image just differ about if of picture.
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/74250e30-521b-4faf-b164-406b65caa809)
 
