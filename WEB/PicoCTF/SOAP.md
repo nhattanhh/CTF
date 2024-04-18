@@ -12,4 +12,6 @@
 
 replace it to out challenge like this:
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/c2248d32-f3c7-4bd7-b88c-b935925093b8)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/0cf312ce-9515-46eb-8af8-01a236d08e06)
+
+Boom!
