@@ -1,13 +1,13 @@
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/9098e5a7-8946-4f0b-a9d2-4d4007995829)
 
-Check source code and access Y8splx37qY.js
+Check source code and we got this:
 
-![Ảnh chụp màn hình 2024-04-18 102301](https://github.com/nhattanhh/CTF/assets/130430279/c765a0aa-871f-4918-8481-beeafc63d78f)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/0b284313-bfdb-49d8-b340-2074089a0ed9)
 
-We got: ./aD8SvhyVkb
+Decode with magic in Cyberchef and get the flag:
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/4ef21d35-8d7b-4a0f-96b3-e5aa2542684f)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/bf0c056d-6329-4c8c-a7eb-5edae4375bfc)
 
-Download it and try decode in last line of this file.
+Successful!!!
 
-![image](https://github.com/nhattanhh/CTF/assets/130430279/43a7b052-ef4d-41af-95f7-e670f0d0622c)
+![image](https://github.com/nhattanhh/CTF/assets/130430279/0f1b398f-e9fe-45e6-8f14-5986697085bb)
