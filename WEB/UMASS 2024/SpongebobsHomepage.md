@@ -17,6 +17,6 @@ If i change the name to other that invalid name, i will be responded by an error
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/746c11db-796e-4761-899e-f1f963df8868)
 
-It mean that after our command, we have '!' behind, by pass like this and get the flag...
+It mean that after our command, we have '!' behind, by pass by put the ';' behind and get the flag...
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/93ba0c03-3d7e-4856-b21f-72710b15b678)
