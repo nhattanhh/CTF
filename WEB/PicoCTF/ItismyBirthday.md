@@ -20,4 +20,6 @@
 
 - Download this 2 files and change to .pdf extention and upload its:
 
+![Ảnh chụp màn hình 2024-05-15 165734](https://github.com/nhattanhh/CTF/assets/130430279/eb82fa74-41a2-4f42-9f2b-c1175570f6fc)
+
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/b9b55b52-caae-48d8-bfcc-557c292afd2f)
