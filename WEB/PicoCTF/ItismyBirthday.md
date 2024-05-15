@@ -1,10 +1,10 @@
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/73f91b29-1a9b-4989-af76-892535b17557)
 
-- This chall require us to upload 2 pdf file, i try create 2 emty pdf files to test it, called 1.pdf and 2.pdf:
+- This chall require us to upload 2 pdf files, i try create 2 emty pdf files to test it, called 1.pdf and 2.pdf:
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/d17d5154-d3a3-4486-9605-04ca59a97fc0)
 
-- It seem require diff content, so i change it like this:
+- It seem require diff contents, so i change its like these:
 
 ![image](https://github.com/nhattanhh/CTF/assets/130430279/baf53a59-e8ee-4829-9586-502612daceb2)
 
