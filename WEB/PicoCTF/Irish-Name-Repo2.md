@@ -6,7 +6,7 @@
 
 - i think in here they have filter 'admin', so i use this username and password to bypass.
 
-- username:ad'||'min
+- username: ad'||'min
 - password: a' IS NOT 'b
 
 ![image](https://github.com/user-attachments/assets/05597370-e95d-468e-a7a6-7d2ad3d87c82)
