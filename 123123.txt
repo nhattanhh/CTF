@@ -1,0 +1,102 @@
+1.
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+// code to find smallest number by iterative
+string findSmallestIterative(string num) {
+    int n = num.size();
+    for (int i = 0; i < n - 1; ++i) {
+        char minDigit = num[i];
+        int minIndex = i;
+        for (int j = i + 1; j < n; ++j) {
+            if (num[j] < minDigit && num[j] != '0') {
+                minDigit = num[j];
+                minIndex = j;
+            }
+        }
+        if (minIndex != i) {
+            swap(num[i], num[minIndex]);
+            break;
+        }
+    }
+    return num;
+}
+//  recursive approach
+void findSmallestRecursiveHelper(string &num, int start, string &minNum) {
+    if (start == num.size() - 1) {
+        if (num < minNum) {
+            minNum = num;
+        }
+        return;
+    }
+    for (int i = start; i < num.size(); ++i) {
+        if (num[i] != '0' || start != 0) {
+            swap(num[start], num[i]);
+            findSmallestRecursiveHelper(num, start + 1, minNum);
+            swap(num[start], num[i]); // backtrack
+        }
+    }
+}
+// find smallest number by recursive 
+string findSmallestRecursive(string num) {
+    string minNum =num;
+    findSmallestRecursiveHelper(num,0, minNum);
+    return minNum;
+}
+int main() {
+    string num;
+    cout << "enter a number:";
+    cin >> num;
+    cout << "original number is" << num << endl;
+    cout << "Smallest number (iterative): " << findSmallestIterative(num) << endl;
+    cout << "Smallest number(recursive):" << findSmallestRecursive(num) << endl;
+    return 0;
+}
+//The complexity of this problem by both two apporaches  is O(n^2) ,it is because in the worst case we need to compare each digit with every other digit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.
+
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+struct vector3d {
+    double x, y, z;
+};
+//euclidean
+double calculateDistance(const vector3d& v1, const vector3d& v2) {
+    return sqrt(pow(v1.x - v2.x, 2) + pow(v1.y - v2.y, 2) + pow(v1.z - v2.z, 2));
+}
+void displayVector(const vector<vector3d>& vectors) {
+    cout << "vector in the list:" << endl;
+    for (const auto& vec : vectors) {
+        cout << "(" << vec.x << ", " << vec.y << ", " << vec.z << ")" << endl;
+    }
+}
+//display the distances of the matrix
+void displayDistanceMatrix(const vector<vector3d>& vectors) {
+    int n = vectors.size();
+    cout << "distance between matrix is:" << endl;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << setw(10) << calculateDistance(vectors[i], vectors[j]) << " ";
+        }
+        cout << endl;
+    }
+}
+int main() {
+    int n;
+    cout << "enter the number of vector: ";
+    cin >> n;
+    vector<vector3d> vectors(n);
+    for (int i = 0; i < n; ++i) {
+        cout << "enter vector " << i + 1 << " (x y z): ";
+        cin >> vectors[i].x >> vectors[i].y >> vectors[i].z;
+    }
+    displayVector(vectors);
+    displayDistanceMatrix(vectors);
+    return 0;
+}
